@@ -1,0 +1,53 @@
+.my-head {
+	display: flex;
+	background: url('../img/background.jpg') no-repeat;
+	background-size: 100%;
+	padding: 5vw 4vw;
+}
+
+.my-head-img {
+	width: 20vw;
+	height: 20vw;
+}
+
+.my-head-img img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.my-head-name-point {
+	margin-left: 4vw;
+	color: #fff;
+	font-size: 3vw;
+	padding: 4vw 0;
+}
+
+.my-head-name-point p {
+	color: #fff;
+	font-size: 4vw;
+	opacity: 1;
+	margin-bottom: 3vw;
+}
+
+.my-head-name-point span {
+	border: .3vw solid #fff;
+	border-radius: 10vw;
+	padding: 1vw;
+}
+
+
+.my-order {
+	margin-top: 2vw;
+	color: red;
+}
+
+
+.my-main .van-cell__left-icon {
+	font-size: 7vw;
+	margin-right: 2vw;
+	opacity: .8;
+}
+
+.my-main .van-cell__title {
+	opacity: .8;
+}

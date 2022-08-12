@@ -1,0 +1,138 @@
+.shopcar-head {
+	display: flex;
+	justify-content: space-between;
+	padding: 3vw 4vw;
+	border-bottom: .4vw solid #f4f4f4;
+}
+
+.shopcar-head p {
+	font-size: 4vw;
+	opacity: .9;
+}
+
+.shopcar-body {
+	margin-top: 2vw;
+}
+
+.shopcar-head span {
+	opacity: .8;
+	font-size: 4vw;
+}
+
+.shopcar-list li {
+	padding: 2vw;
+	display: flex;
+}
+
+.shopcar-checkbox {
+	display: flex;
+	align-items: center;
+}
+
+.shopcar-checkbox i {
+	background: url('../img/check.png') no-repeat;
+	background-size: 100% 100%;
+	display: block;
+	width: 4.8vw;
+	height: 4.8vw;
+}
+
+
+
+.shopcar-product {
+	padding: 4vw 2.6vw;
+	box-shadow: .1vw .1vw 1.2vw .5vw hsla(0, 0%, 60%, .28);
+	margin-left: 2.5vw;
+}
+
+.shopcar-product-body {
+	display: flex;
+	margin-bottom: 4vw;
+}
+
+.shopcar-product-img {
+	width: 20vw;
+	background: #f4f4f4;
+}
+
+.shopcar-product-img img {
+	width: 100%;
+}
+
+.shopcar-product-txt {
+	margin-left: 3.6vw;
+	flex: 1;
+}
+
+.shopcar-product-txt a {
+	font-size: 3.5vw;
+	height: 10vw;
+	overflow: hidden;
+	line-height: 5vw;
+	display: block;
+	margin-bottom: 5.6vw;
+}
+
+.shopcar-product-price {
+	display: flex;
+	justify-content: space-between;
+	font-size: 3vw;
+	align-items: center;
+}
+
+.shopcar-foot {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	height: 13vw;
+	bottom: 18vw;
+	z-index: 999;
+}
+
+.shopcar-allcheck {
+	display: flex;
+	padding: 0vw 5vw 0vw 2vw;
+	align-items: center;
+}
+
+.shopcar-allcheck p {
+	margin-left: 2.5vw;
+}
+
+.shopcar-right {
+	display: flex;
+	align-items: center;
+}
+
+.shopcar-money {
+	margin-right: 5vw;
+}
+
+.shopcar-sum button {
+	width: 27vw;
+	height: 13vw;
+	background: #ccc;
+	color: #333;
+	display: flex;
+	opacity: .8;
+	justify-content: center;
+	align-items: center;
+	font-size: 4.3vw;
+	border: none;
+}
+
+.logback button{
+		background: #fd2645;
+		opacity: 1;
+		color: #fff;
+	}
+
+.checked i {
+	background: url('../img/checkbox.png') no-repeat;
+	background-size: 100% 100%;
+	display: block;
+	width: 4.8vw;
+	height: 4.8vw;
+}

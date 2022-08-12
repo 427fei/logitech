@@ -1,0 +1,124 @@
+.my-body {
+	background: white;
+}
+
+.my-logo {
+	margin: 10vw auto 9vw;
+}
+
+.my-logo img {
+	margin: auto;
+	width: 18vw;
+	height: 18vw;
+	border: .2vw solid #e0e0e0;
+	background: #fff;
+	display: block;
+	border-radius: 3vw;
+}
+
+.my-input-main {
+	padding-left: 8vw;
+}
+
+.my-input-phone {
+	display: flex;
+	height: 14vw;
+	align-items: center;
+	margin-bottom: 2vw;
+}
+
+.my-input-img img {
+	width: 6vw;
+	display: block;
+	margin-right: 3vw;
+}
+
+.my-input {
+	display: flex;
+}
+
+.my-input input {
+	border: none;
+	font-size: 3.5vw;
+	margin-right: 5vw;
+}
+
+.my-yzm {
+	width: 22vw;
+}
+
+.my-yzm img {
+	width: 100%;
+}
+
+.login-btn {
+	text-align: center;
+}
+
+.login-btn button{
+	width: 85%;
+	background: #e0e0e0;
+	border: none;
+	color: #fff;
+	border-radius: 1vw;
+	height: 11.7vw;
+	margin-top: 1.5vw;
+}
+
+.logback button{
+	background: #fd2645;
+}
+
+.reg-btn {
+	display: flex;
+	margin-top: 5vw;
+	justify-content: center;
+}
+
+.reg-btn p {
+	color: #666;
+	opacity: .7;
+}
+
+.reg-btn span {
+	margin: 0 5vw;
+	color: #666;
+	opacity: .5;
+}
+
+.other-login {
+	margin-top: 7vw;
+}
+
+.other-head {
+	opacity: .7;
+	text-align: center;
+}
+
+.other-login-main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	padding: 5vw 16vw;
+}
+
+.my-phone-yzm {
+	text-align: center;
+}
+
+.my-phone-yzm button{
+	background: #fd2645;
+    width: 24vw;
+    height: 9.6vw;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+	border: none;
+    font-size: 3.5vw;
+    border-radius: .6vw;
+}
+
+.img-transform img{
+	transform: rotate(185deg);
+}

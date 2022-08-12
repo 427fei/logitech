@@ -1,0 +1,39 @@
+.foot {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: white;
+	z-index: 999;
+}
+
+.foot li {
+	width: 20%;
+	padding-top: 3vw;
+	float: left;
+	text-align: center;
+}
+
+.blackfoot {
+	color: #666;
+}
+
+.thisfoot {
+	color: red;
+}
+
+.foot p {
+	margin-top: 1vw;
+	font-size: 3.5vw;
+	margin-bottom: 2vw;
+}
+
+.foot-icon {
+	font-size: 7vw;
+	opacity: .8;
+}
+
+
+.foot a {
+	text-decoration: none;
+	color: black;
+}

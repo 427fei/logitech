@@ -1,0 +1,87 @@
+#find-warp {
+	background: #fff;
+}
+
+.header {
+	position: fixed;
+	top: 0vw;
+	left: 0vw;
+	width: 100%;
+	z-index: 99999;
+}
+
+.find-search {
+	display: flex;
+	width: 100%;
+	height: 12vw;
+	text-align: center;
+	padding: 2vw 3vw;
+	background: #fff;
+}
+
+.find-search a {
+	background: #f4f4f4;
+	display: flex;
+	width: 90%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	color: #999;
+	font-size: 3.5vw;
+	position: relative;
+	right: -5vw;
+}
+
+.tab-nav {
+	display: flex;
+	background: #fff;
+	margin-top: -1vw;
+}
+
+.tab-nav-item {
+	display: flex;
+	height: 11.5vw;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	font-size: 3.5vw;
+}
+
+.tab-nav-item span {
+	margin-top: .5vw;
+	margin-left: 1vw;
+}
+
+.find-list {
+	flex-wrap: wrap;
+	display: flex;
+	padding: 3vw;
+	justify-content: space-between;
+}
+
+.find-list li {
+	box-shadow: 0 .1vw 1.5vw 0 hsla(0, 0%, 40%, .28);
+	width: 48%;
+	margin-bottom: 2.5vw;
+}
+
+.find-list-img {
+	background: #f4f4f4;
+}
+
+.find-list-img img {
+	width: 100%;
+}
+
+.find-list-txt {
+	padding: 3vw;
+}
+
+.find-list-txt h3 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 3.5vw;
+	margin: 2vw 0 2vw;
+}
